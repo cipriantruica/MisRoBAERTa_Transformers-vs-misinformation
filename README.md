@@ -1,8 +1,8 @@
 
-MisRoBÆRTa: Transformers versus Misinformation
+## MisRoBÆRTa: Transformers versus Misinformation
 
 
-Deployment: 
+### Deployment: 
 
 Python v3.7.x
 
@@ -35,20 +35,17 @@ To run the BART models either replace or copy the marked code in the "classifica
 
 For "classification_model.py" there are new lines added to this file
 Place it here to overwrite:
-# $PYTHON_HOME/lib/python3.7/site-packages/simpletransformers/classification/
+` $PYTHON_HOME/lib/python3.7/site-packages/simpletransformers/classification/`
 We higly recommand to add the lines marked with " # line for BART " in the existing "classification_model.py" file, and not overwrite the file.
 
 
 For "bart_model.py" place this file here:
-# $PYTHON_HOME/lib/python3.7/site-packages/simpletransformers/classification/transformer_models/
+` $PYTHON_HOME/lib/python3.7/site-packages/simpletransformers/classification/transformer_models/`
 
 
 To run FakeBERT use "FakeBERT.py" script as follows:
 
-python FakeBERT.py FILE_NAME NO_TESTS
+`python FakeBERT.py FILE_NAME NO_TESTS`
+
 FILE_NAME - is the a csv file with 2 columns: content and label
 NO_TESTS - how many test to perform
-
-
-We provide a 200 records sample for testing the code, not the evaluation.
-The full dataset will be provided upon the acceptence of the paper using a public GitHub Account.

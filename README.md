@@ -1,6 +1,9 @@
 
-## MisRoBÆRTa: Transformers versus Misinformation
+# MisRoBÆRTa: Transformers versus Misinformation
 
+### Article:
+
+Ciprian-Octavian Truică and Elena-Simona Apostol. *MisRoBÆRTa: Transformers versus Misinformation*. Mathematics, 10(4):1-25(569), ISSN 2227-7390, February 2022 DOI: [10.3390/math10040569](http://doi.org/10.3390/math10040569)
 
 ### Deployment: 
 
